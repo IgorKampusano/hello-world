@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TravelCream</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-left">
+                <a class="header-logo" href="#">TravelCream</a>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Trips</a></li>
+                        <li><a href="#">Activity</a></li>
+                        <li><a href="#">Deals</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <button><a href="#">Login</a></button>
+            </div>
+        </div>
+    </header>
+    <section class="first-section">
+        <div class="container">
+            <h1 class="first-section-heading">Do you want to visit Paris ?</h1>
+            <p class="first-section-paragraph">Why not</p>
+        </div>
+        <form action="POST" class="main-form">
+            <input type="text" placeholder="Where are you leaving from ?">
+            <input type="text" placeholder="Where do you want to go ?">
+            <input type="text" placeholder="Date">
+            <button class="search">Search</button>
+        </form>
+
+    </section>
+    <section class="flights">
+        <div class="container">
+            <div class="flights-top clearfix">
+                <h2 class="flights-heading">Flights</h2>
+                <div class="flights-nav">
+                    <ul>
+                        <li><a href="#">Non stop</a></li>
+                        <li><a href="#">Best price</a></li>
+                        <li><a href="#">Airline</a></li>
+                        <li><a href="#">Schedule</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="table-block">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Airline</td>
+                            <td>Date</td>
+                            <td>Departure</td>
+                            <td>Arrival</td>
+                            <td>Time</td>
+                            <td>Price</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+
+                                <img class="table-img" src="img/vueling.png" alt="">
+                                <div class="table-text-airline">
+                                    <span class="airline-name">Vueling</span>
+                                    <span class="airline-number">VO1367</span>
+                                </div>
+
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">03/11/2017</span>
+                                    <span class="airline-number">In 3 days</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">Paris (CDG)</span>
+                                    <span class="airline-number">07:15</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">Miami</span>
+                                    <span class="airline-number">5:00</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">08:45</span>
+                                    <span class="airline-number">CDG-MIA</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <button class="table-button">870 $</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <img class="table-img" src="img/AF.png" alt="">
+                                <div class="table-text-airline">
+                                    <span class="airline-name">Vueling</span>
+                                    <span class="airline-number">VO1367</span>
+                                </div>
+
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">03/11/2017</span>
+                                    <span class="airline-number">In 3 days</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">Paris (CDG)</span>
+                                    <span class="airline-number">07:15</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">Miami</span>
+                                    <span class="airline-number">5:00</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">08:45</span>
+                                    <span class="airline-number">CDG-MIA</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <button class="table-button">870 $</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <img class="table-img" src="img/AA.png" alt="">
+                                <div class="table-text-airline">
+                                    <span class="airline-name">Vueling</span>
+                                    <span class="airline-number">VO1367</span>
+                                </div>
+
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">03/11/2017</span>
+                                    <span class="airline-number">In 3 days</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">Paris (CDG)</span>
+                                    <span class="airline-number">07:15</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">Miami</span>
+                                    <span class="airline-number">5:00</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">08:45</span>
+                                    <span class="airline-number">CDG-MIA</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <button class="table-button">870 $</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <img class="table-img" src="img/Delta.png" alt="">
+                                <div class="table-text-airline">
+                                    <span class="airline-name">Vueling</span>
+                                    <span class="airline-number">VO1367</span>
+                                </div>
+
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">03/11/2017</span>
+                                    <span class="airline-number">In 3 days</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">Paris (CDG)</span>
+                                    <span class="airline-number">07:15</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">Miami</span>
+                                    <span class="airline-number">5:00</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">08:45</span>
+                                    <span class="airline-number">CDG-MIA</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <button class="table-button">870 $</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <img class="table-img" src="img/Transavia.png" alt="">
+                                <div class="table-text-airline">
+                                    <span class="airline-name">Vueling</span>
+                                    <span class="airline-number">VO1367</span>
+                                </div>
+
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">03/11/2017</span>
+                                    <span class="airline-number">In 3 days</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">Paris (CDG)</span>
+                                    <span class="airline-number">07:15</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">Miami</span>
+                                    <span class="airline-number">5:00</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <div class="table-text">
+                                    <span class="airline-name">08:45</span>
+                                    <span class="airline-number">CDG-MIA</span>
+                                </div>
+
+                            </td>
+                            <td>
+                                <button class="table-button">870 $</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3 class="see-all-items-heading"><a href="#">See all flights</a></h3>
+        </div>
+
+    </section>
+    <section class="hotels">
+        <div class="container">
+            <div class="flights-top clearfix">
+                <h2 class="flights-heading">Hotels</h2>
+                <div class="flights-nav">
+                    <ul>
+                        <li><a href="#">Best price</a></li>
+                        <li><a href="#">Distance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hotels-block">
+                <div class="small-hotel-block">
+                    <img class="hotel-image" src="img/Calque_2.png" alt="">
+                    <div class="hotel-text">
+                        <h3 class="hotel-heading">Hôtel Paris Ouest Achères</h3>
+                        <div class="hotel-props">
+                            <div class="distance">12,3 km</div>
+                            <div class="wi-fi">Free Wi-Fi</div>
+                        </div>
+
+                        <button class="hotel-button">30 $</button>
+                    </div>
+
+                </div>
+                <div class="small-hotel-block">
+                    <img class="hotel-image" src="img/Calque_3.png" alt="">
+                    <div class="hotel-text">
+                        <h3 class="hotel-heading">Hôtel Paris Ouest Achères</h3>
+                        <div class="hotel-props">
+                            <div class="distance">12,3 km</div>
+                            <div class="wi-fi">Free Wi-Fi</div>
+                        </div>
+
+                        <button class="hotel-button">30 $</button>
+                    </div>
+                </div>
+                <div class="small-hotel-block">
+                    <img class="hotel-image" src="img/Calque_4.png" alt="">
+                    <div class="hotel-text">
+                        <h3 class="hotel-heading">Hôtel Paris Ouest Achères</h3>
+                        <div class="hotel-props">
+                            <div class="distance">12,3 km</div>
+                            <div class="wi-fi">Free Wi-Fi</div>
+                        </div>
+
+                        <button class="hotel-button">30 $</button>
+                    </div>
+                </div>
+                <div class="small-hotel-block">
+                    <img class="hotel-image" src="img/Calque_5.png" alt="">
+                    <div class="hotel-text">
+                        <h3 class="hotel-heading">Hôtel Paris Ouest Achères</h3>
+                        <div class="hotel-props">
+                            <div class="distance">12,3 km</div>
+                            <div class="wi-fi">Free Wi-Fi</div>
+                        </div>
+
+                        <button class="hotel-button">30 $</button>
+                    </div>
+                </div>
+                <div class="small-hotel-block">
+                    <img class="hotel-image" src="img/Calque_6.png" alt="">
+                    <div class="hotel-text">
+                        <h3 class="hotel-heading">Hôtel Paris Ouest Achères</h3>
+                        <div class="hotel-props">
+                            <div class="distance">12,3 km</div>
+                            <div class="wi-fi">Free Wi-Fi</div>
+                        </div>
+
+                        <button class="hotel-button">30 $</button>
+                    </div>
+                </div>
+                <div class="small-hotel-block">
+                    <img class="hotel-image" src="img/Calque_7.png" alt="">
+                    <div class="hotel-text">
+                        <h3 class="hotel-heading">Hôtel Paris Ouest Achères</h3>
+                        <div class="hotel-props">
+                            <div class="distance">12,3 km</div>
+                            <div class="wi-fi">Free Wi-Fi</div>
+                        </div>
+
+                        <button class="hotel-button">30 $</button>
+                    </div>
+                </div>
+            </div>
+            <h3 class="see-all-items-heading"><a href="#">See all hotels</a></h3>
+        </div>
+    </section>
+    <section class="attractions">
+        <div class="container">
+            <div class="flights-top clearfix">
+                <h2 class="flights-heading">Attractions</h2>
+                <div class="flights-nav">
+                    <ul>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">Shoppings</a></li>
+                        <li><a href="#">Shows</a></li>
+                        <li><a href="#">Parks</a></li>
+                        <li><a href="#">Circuits</a></li>
+                        <li><a href="#">Museums</a></li>
+                        <li><a href="#">Monuments</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="attractions-block">
+                <div class="top-images">
+                    <div class="first-image-left">
+                        <h4 class="attraction-heading">Eiffel Tower</h4>
+
+                    </div>
+                    <div class="right-images">
+                        <div class="attraction-image-right-first">
+                            <h4 class="attraction-heading-right">Louvres</h4>
+                        </div>
+                        <div class="attraction-image-rights-second">
+                            <h4 class="attraction-heading-right">Notre Dame de Paris</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inline-images">
+                    <div class="first-inline">
+                        <h4 class="inline-headings">Forum des Halles</h4>
+                    </div>
+                    <div class="second-inline">
+                        <h4 class="inline-headings">Arc de Triomphe</h4>
+                    </div>
+                    <div class="third-inline">
+                        <h4 class="inline-headings">Sacré Coeur</h4>
+                    </div>
+                </div>
+            </div>
+            <h3 class="see-all-items-heading"><a href="#">See all attractions</a></h3>
+        </div>
+
+
+    </section>
+    <section class="trips">
+        <div class="container">
+            <div class="flights-top clearfix">
+                <h2 class="flights-heading">Attractions</h2>
+                <div class="flights-nav">
+                    <ul>
+                        <li><a href="#">Best trips</a></li>
+                        <li><a href="#">Popularity</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="trips-block">
+                <article class="trip-article">
+                    <div class="article-image">
+                        <img src="img/Calque_15.png" alt="">
+                    </div>
+                    <div class="article-text">
+                        <h3>Accès prioritaire au sommet de la tour Eiffel et hôte</h3>
+                        <p>Avec ce billet coupe-file pour la tour Eiffel, profitez de la seule entrée prioritaire à la tour qui comprend un guide et des commentaires, vous offrant une visite sans encombre de l'un des monuments les plus visités au monde.
+                            Accompagné de votre guide depuis l'extérieur de l'entrée principale jusqu'au deuxième étage, vous profiterez d'une entrée détendue à la tour Eiffel avec suffisamment de temps libre pour flâner. </p>
+                    </div>
+                </article>
+                <article class="trip-article">
+                    <div class="article-image">
+                        <img src="img/Calque_14.png" alt="">
+                    </div>
+                    <div class="article-text">
+                        <h3>Croisière sur la Seine de 3 heures avec les Bateaux-Mouches</h3>
+                        <p>Découvrez Paris depuis l'eau lors d'une croisière de 3 heures sur la Seine à bord des emblématiques Bateaux-Mouches, avec dîner inclus. Vous pourrez admirer l’élégante architecture de la ville toute illuminée pour la soirée tandis
+                            que vous passerez à côté de monuments tels que la cathédrale Notre-Dame et la Tour Eiffel. Au moment de la réservation, choisissez le menu Prestige ou Excellence.</p>
+                    </div>
+                </article>
+                <article class="trip-article">
+                    <div class="article-image">
+                        <img src="img/Calque_16.png" alt="">
+                    </div>
+                    <div class="article-text">
+                        <h3>Billet d'entrée au Musée du Louvre avec présentation par un guide</h3>
+                        <p>À un point de rencontre au centre de Paris, rencontrez le fournisseur de billet local, qui vous guidera devant la ligne d'entrée au Musée du Louvre pour un accès au musée, une des attractions les plus populaires de la ville. Explorez
+                            à votre guise l'art et d'autres arts qui vous intéressent. La cerise sur le gâteau est, bien entendu, la Joconde de Léonard de Vinci mais il y a de nombreux trésors à découvrir.</p>
+                    </div>
+                </article>
+            </div>
+            <h3 class="see-all-items-heading"><a href="#">See all Trips</a></h3>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-column">
+                <div class="footer-title">Cities</div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#">Paris</a></li>
+                        <li><a href="#">Miami</a></li>
+                        <li><a href="#">London</a></li>
+                        <li><a href="#">Madrid</a></li>
+                        <li><a href="#">Tokyo</a></li>
+                        <li><a href="#">Pekin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Explore</div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Assistance</a></li>
+                        <li><a href="#">Eco</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">About us</div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#">About TravelCream</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Usage</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Contact</div>
+                <p>Feel free to get in touch via email:</p>
+                <div><a class="footer-link" href="#">support@travelcream.com</a></div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

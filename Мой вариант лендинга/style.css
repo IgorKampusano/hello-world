@@ -1,0 +1,539 @@
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    min-height: 6000px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header {
+    padding-top: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right button {
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
+}
+
+.header-right button a {
+    color: #fff;
+}
+
+.header-right button:hover {
+    background-color: #ff4b64;
+    transition: background-color 0.15s;
+    border: 1px solid #ff4b64;
+}
+
+.header-logo {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 28px;
+}
+
+.nav-menu {
+    display: inline-block;
+    color: #fff;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    padding-right: 24px;
+}
+
+.nav-menu ul li a {
+    color: #fff;
+}
+
+
+/* Первая секция */
+
+.first-section {
+    min-height: 650px;
+    padding-top: 275px;
+    padding-bottom: 244px;
+    position: relative;
+    background-image: url("img/Calque_4_copie.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.first-section-heading {
+    font-size: 72px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.first-section-paragraph {
+    margin-top: 35px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.main-form {
+    font-size: 0;
+    margin-top: 218px;
+}
+
+.main-form input {
+    width: 335px;
+    height: 55px;
+    border: 1px solid #e6e6e6;
+    padding-left: 32px;
+}
+
+.main-form input:nth-child(3) {
+    width: 186px;
+}
+
+.main-form .search {
+    border: none;
+    color: #fff;
+    width: 120px;
+    height: 55px;
+    background-color: #ff4b64;
+    line-height: 55px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-form .search:hover {
+    background-color: #000;
+    transition: background-color 0.15s;
+}
+
+.flights {
+    padding-top: 100px;
+    padding-top: 55px;
+}
+
+.flights-heading {
+    float: left;
+    color: #484848;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.flights-nav {
+    float: right;
+}
+
+.flights-nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.flights-nav ul li a:hover {
+    color: #ff4b64;
+}
+
+.flights-nav ul li a {
+    color: #484848;
+}
+
+.table-block {
+    width: 100%;
+}
+
+.table-block table {
+    width: 100%;
+}
+
+table thead td {
+    padding-top: 55px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 30px;
+}
+
+table tbody td {
+    height: 145px;
+}
+
+table td:nth-child(1) {
+    width: 300px;
+}
+
+table td:nth-child(2) {
+    width: 165px;
+}
+
+table td:nth-child(3) {
+    width: 170px;
+}
+
+table td:nth-child(4) {
+    width: 120px;
+}
+
+table td:nth-child(5) {
+    width: 240px;
+}
+
+.table-button {
+    border: none;
+    width: 120px;
+    height: 40px;
+    color: #ff4b64;
+    font-weight: 500;
+    line-height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #ff4b64;
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
+}
+
+.table-button:hover {
+    background-color: #ff4b64;
+    color: #fff;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.table-text-airline {
+    display: inline-block;
+    padding-left: 28px;
+    vertical-align: middle;
+}
+
+.table-text {
+    vertical-align: middle;
+}
+
+.table-img {
+    display: inline;
+}
+
+.airline-name {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.airline-number {
+    color: #9a9a9a;
+}
+
+.see-all-items-heading {
+    float: right;
+    font-weight: 400;
+    margin-bottom: 78px;
+}
+
+.see-all-items-heading a {
+    color: #484848;
+}
+
+.see-all-items-heading a:hover {
+    color: #ff4b64;
+}
+
+
+/* .hotels-block {} */
+
+.hotels-block {
+    width: 100%;
+    font-size: 0;
+    margin-top: 53px;
+}
+
+.small-hotel-block {
+    border: 1px solid #e6e6e6;
+    display: inline-block;
+    width: 31.5%;
+    margin-right: 2.75%;
+    margin-bottom: 27px;
+}
+
+.small-hotel-block:nth-child(3n) {
+    margin-right: 0;
+}
+
+.hotel-text {
+    padding: 24px 15px 25px 15px;
+}
+
+.hotel-heading {
+    color: #484848;
+    margin-bottom: 13px;
+}
+
+.distance {
+    color: #9a9a9a;
+    float: left;
+}
+
+.wi-fi {
+    color: #9a9a9a;
+    float: right;
+}
+
+.hotel-props {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 13px;
+}
+
+.hotel-button {
+    border: none;
+    width: 120px;
+    height: 40px;
+    color: #ff4b64;
+    font-weight: 500;
+    line-height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #ff4b64;
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
+}
+
+.hotel-button:hover {
+    background-color: #ff4b64;
+    color: #fff;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.attractions-block {
+    margin-top: 58px;
+}
+
+.top-images {
+    overflow: hidden;
+}
+
+.first-image-left {
+    width: 350px;
+    height: 525px;
+    background-image: url("img/Calque_8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding-top: 254px;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    float: left;
+}
+
+.attraction-heading {
+    font-weight: 500;
+}
+
+.right-images {
+    float: right;
+}
+
+.attraction-image-right-first {
+    width: 730px;
+    height: 247px;
+    background-image: url("img/Calque_9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.attraction-heading-right {
+    padding-top: 112px;
+    font-weight: 500;
+}
+
+.attraction-image-rights-second {
+    margin-top: 31px;
+    width: 730px;
+    height: 247px;
+    background-image: url("img/Calque_10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.inline-images {
+    margin-top: 31px;
+    margin-bottom: 40px;
+}
+
+.first-inline {
+    display: inline-block;
+    width: 350px;
+    height: 260px;
+    background-image: url("img/Calque_11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    margin-right: 25px;
+}
+
+.inline-headings {
+    padding-top: 118px;
+    font-weight: 500;
+}
+
+.second-inline {
+    display: inline-block;
+    width: 350px;
+    height: 260px;
+    background-image: url("img/Calque_12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    margin-right: 25px;
+}
+
+.third-inline {
+    display: inline-block;
+    width: 350px;
+    height: 260px;
+    background-image: url("img/Calque_13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.trip-article {
+    overflow: hidden;
+}
+
+.article-image {
+    float: left;
+}
+
+.article-text {
+    float: right;
+    width: 760px;
+    height: 233px;
+    border: 1px solid #e6e6e6;
+}
+
+.article-text h3 {
+    margin: 23px 0px 19px 30px;
+    color: #484848;
+}
+
+.article-text p {
+    color: #484848;
+    margin-left: 30px;
+    line-height: 26px;
+}
+
+.trip-article {
+    margin-bottom: 30px;
+}
+
+.trips-block {
+    margin-top: 64px;
+}
+
+.footer-column {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 159px;
+}
+
+.footer-column:last-child {
+    margin-right: 0;
+}
+
+.footer-title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 51px;
+}
+
+.footer-nav ul li {
+    padding-bottom: 25.92px;
+}
+
+.footer-nav ul li a {
+    color: #484848;
+}
+
+.footer-nav ul li a:hover {
+    color: #ff4b64;
+}
+
+.footer-column p {
+    margin-bottom: 25px;
+}
+
+.footer-link {
+    color: #ff4b64;
+}
