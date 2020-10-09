@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Домашняя работа №4 (урок 4)</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <section class="list_deal">
+            <h2 class="deal_heading">Список дел:</h2>
+            <div class="list_none">Список пуст...</div>
+            <ul class="deals_list">
+
+            </ul>
+
+
+        </section>
+
+        <section class="add_deal_section">
+            <h2 class="add_deal_heading">Добавить новое дело</h2>
+            <form class="form_deal" method="POST">
+                <div class="name">
+                    <label>* Название</label>
+                    <input type="text" required="required" name="fullname">
+                </div>
+                <div class="description">
+                    <label>* Описание</label>
+                    <textarea required="required" cols="47" rows="12"></textarea>
+                </div>
+                <button class="add_deal_button">Добавить дело</button>
+
+            </form>
+
+        </section>
+    </div>
+
+</body>
+
+</html>

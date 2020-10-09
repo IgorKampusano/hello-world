@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+hr {
+    background-color: rgb(235, 235, 235);
+    opacity: 0.4;
+    z-index: 31;
+}
+
+
+/* секция "Список дел:" */
+
+.list-deal {
+    width: 470px;
+    float: left;
+    margin-top: 61px;
+}
+
+.list-deal__heading {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.list-deal__none {
+    margin-top: 63px;
+    color: #8993AD;
+}
+
+.list-deal__list {
+    margin-top: 30px;
+}
+
+
+/* блок с добавленным дело */
+
+.deal_item {
+    margin-top: 10px;
+    position: relative;
+    background-color: #fff;
+}
+
+.deal_name {
+    padding: 16px 22px 0 19px;
+    color: #000;
+    display: inline-block;
+    margin-top: 6px;
+    height: 45px;
+    border: none;
+    font-size: 16px;
+}
+
+.deal_delete {
+    width: 9px;
+    height: 9px;
+    background-image: url("img/clear-button.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+}
+
+.arrow {
+    width: 9px;
+    height: 9px;
+    background-image: url("img/стрелка.png");
+    float: right;
+    margin-right: 24px;
+    margin-top: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.turn_arrow {
+    transform: rotate(-360deg);
+    background-position: center;
+}
+
+.deal_description {
+    padding-left: 19px;
+    font-size: 14px;
+    color: #8993AD;
+    height: 80px;
+}
+
+
+/*секция "Добавить дело"*/
+
+.add_deal_section {
+    width: 470px;
+    margin-top: 61px;
+    float: right;
+}
+
+.add_deal_heading {
+    font-size: 21px;
+    margin-bottom: 28px;
+}
+
+.form_deal {
+    width: 470px;
+    background-color: white;
+    color: #8993AD;
+}
+
+.error {
+    border: 1px solid red !important;
+}
+
+input {
+    width: 390px;
+    height: 45px;
+    margin-top: 7px;
+    background-color: #FAFAFA;
+    border: 1px solid #EBEBEB;
+}
+
+textarea {
+    margin-top: 7px;
+    font-size: 16px;
+    background-color: #FAFAFA;
+    border: 1px solid #EBEBEB;
+}
+
+.name {
+    padding-left: 40px;
+    padding-top: 48px;
+}
+
+.name label {
+    font-size: 14px
+}
+
+.description {
+    padding-left: 41px;
+    padding-top: 27px;
+}
+
+.description label {
+    font-size: 14px;
+}
+
+.add_deal_button {
+    background-color: #2174FD;
+    color: white;
+    border: none;
+    width: 224px;
+    height: 55px;
+    font-size: 16px;
+    margin: 32px 0 56px 40px;
+    cursor: pointer;
+}
